@@ -35,6 +35,14 @@ body {
 
 /* Images */
 
+.bio-image {
+  float: left;
+  margin-right: 20px;
+  margin-bottom: 10px;
+  height: 150px;
+  width: 150px;
+}
+
 .social-icon {
   display: inline-block;
   margin: 2px 5px;
