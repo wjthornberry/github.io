@@ -25,7 +25,20 @@ body {
   background-color: #F5F5F5;
 }
 
+.social-container {
+  text-align: center;
+}
+
 .footer {
   background-color: #F5F5F5;
 }
 
+/* Images */
+
+.social-icon {
+  display: inline-block;
+  margin: 2px 5px;
+  height: 64x;
+  width: 64px;
+
+}
