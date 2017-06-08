@@ -2,6 +2,25 @@
   box-sizing: border-box;
 }
 
+/* Page */
+
+html, body {
+  height: 100%;
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Roboto', sans-serif;
+    /* Footer rules */
+    min-height: 100vh;
+}
+
+.content {
+   flex: 1 0 auto;
+}
+
 .navbar {
   background-color: #F5F5F5;
 }
@@ -10,33 +29,3 @@
   background-color: #F5F5F5;
 }
 
-/*.panel-body {
-  width: 62px;
-  height: 62px;
-  margin-top: 8px;
-  margin-right: 5px;
-}*/
-
-/*.container {
-  border: solid red;
-}
-
-.page-header {
-  border: solid orange;
-}
-
-.row {
-  border: solid blue;
-}
-
-.col-sm-4 {
-  border: solid green;
-}
-
-.col-sm-6 {
-  border: dotted green;
-}
-
-.panel-body {
-  border: dotted;
-}*/
