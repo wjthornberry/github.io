@@ -1,3 +1,15 @@
+* {
+  box-sizing: border-box;
+}
+
+.navbar {
+  background-color: #F5F5F5;
+}
+
+.footer {
+  background-color: #F5F5F5;
+}
+
 /*.panel-body {
   width: 62px;
   height: 62px;

@@ -3,8 +3,15 @@
 
 <head>
 	<meta charset="UTF-8">
-	<title>About</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>About Jake Thornberry</title>
+  <!--Google Font: Lobster & Roboto-->
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+  <!--Bootstrap-->
 	<link rel="stylesheet" href="https://bootswatch.com/paper/bootstrap.min.css">
+  <!--CSS-->
+   <link rel="stylesheet" href="./assets/css/style.css"> 
 </head>
 
 <body>
@@ -35,9 +42,9 @@
   </div><!-- /.container-fluid -->
 </nav>
 
-<div class="container">
+<div class="container main">
   <div class="row">
-    <div class="col-md-6">	
+    <div class="col-xs-12 col-md-6 col-lg-6">	
    		<div class="page-header">
   			<h1>About</h1>
 		  </div>
@@ -45,18 +52,15 @@
   </div>
 
   <div class="row">
-    <div class="col-md-6">
+    <div class="col-xs-12 col-md-6 col-lg-6">
       <div class="panel panel-default">
         <div class="panel-heading">
           <h3 class="panel-title">About Jake</h3>
         </div>
-        <div class="panel-body">
-          <div class="bio-section">
-            <div class="col-md-3">
-              <img src="assets/images/jake-thornberry-150px.jpg" class="thumbnail" alt="Jake Thornberry">
-            </div>
-            <div class="col-md-12">
-              <div class="caption">
+        <div class="panel-body bio">
+          <!--<div class="bio bio-section">-->
+              <img src="assets/images/jake-thornberry-150px.jpg" class="bio-image" alt="Jake Thornberry">
+              <!--<div class="caption">-->
                 <p>I'm a full-stack web developer currently in training at Northwestern University’s 
                   Coding Boot Camp. I spend most of my days of exploring HTML, CSS, and JavaScript. 
                   I thrive on building things that help people — things that delight, inform, and, 
@@ -83,33 +87,32 @@
                   <br><br>
                   When I’m not exploring new ways to solve interesting problems, I love reading, 
                   distance running, photography, and exploring the city on my bike. I live in Chicago with my partner and dog.</p>
-              </div><!--caption-->
-            </div><!--col-md-8-->
-          </div><!--bio section-->
-        </div><!--panel-body-->
+        </div><!--panel-body bio-->
       </div><!--panel panel-default-->
-    </div><!--col-md-8-->
-    <div class="col-md-1">
     </div>
-    <div class="col-md-4">
+    <div class="col-xs-12 col-md-6 col-lg-6">
   	   <div class="panel panel-default">
-  		  <div class="panel-heading">
+  		  <div class="panel-heading social">
   		    <h3 class="panel-title">Connect with Me</h3>
   		  </div>
-  		<div class="panel-body">
-  		    <a href="https://github.com/wjthornberry"><img src="assets/images/github-128.png" class="social" alt="GitHub" /></a>
-  	       <a href="https://www.linkedin.com/in/jakethornberry/"><img src="assets/images/linkedin-128.png" class="social" alt="LinkedIn" /></a>
-  	       <a href="https://stackoverflow.com/users/7723903/jake-thornberry?tab=profile"><img src="assets/images/stackoverflow-128.png" class="social" alt="Stack Overflow" /></a>
-  		</div>
-  	</div>
-  </div>
-</div>
+        <div class="panel-body">
+            <a href="https://github.com/wjthornberry"><img src="assets/images/github-128.png" class="social" alt="GitHub" /></a>
+            <a href="https://www.linkedin.com/in/jakethornberry/"><img src="assets/images/linkedin-128.png" class="social" alt="LinkedIn" /></a>
+            <a href="https://stackoverflow.com/users/7723903/jake-thornberry?tab=profile"><img src="assets/images/stackoverflow-128.png" class="social" alt="Stack Overflow" /></a>
+        </div><!--panel-body-->
+  	   </div><!--panel-default-->
+  	</div><!--col-xs-12 social-->
+  </div><!--row-->
+</div><!--container-->
 
-<div class="navbar navbar-default navbar-fixed-bottom">
-  <div class="container">
-    <p class="navbar-text pull-left">Copyright &copy; 2017 Jake Thornberry</p>
-  </div>
-</div>
+<footer class="footer page-footer text-center">
+    <div class="footer-copyright">
+        <div class="footer-container">
+            <p><a href="http://www.jakethornberry.net" target="_blank">Jake Thornberry</a> | <a href="https://github.com/wjthornberry/TriviaGame" target="_blank">GitHub Repo</a>
+            <br> &copy; 2017 Jake Thornberry</p>
+        </div>
+    </div>
+</footer>
 
 </body>
 </html>
