@@ -33,6 +33,10 @@ body {
   background-color: #F5F5F5;
 }
 
+.navbar-nav {
+  margin-top: 15px;
+}
+
 /* Images */
 
 .bio-image {
