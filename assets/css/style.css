@@ -10,7 +10,7 @@ html, body {
 }
 
 body {
-    display: flex;
+    /*display: flex;*/
     flex-direction: column;
     font-family: 'Roboto', sans-serif;
     /* Footer rules */
